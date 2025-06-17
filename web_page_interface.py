@@ -1,7 +1,6 @@
 # --- Imports ---
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 from sqlalchemy import create_engine, text
 from password_utils import get_decrypted_password
 import plotly.express as px
