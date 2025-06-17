@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mysql-flight-db
+    env: docker
+    plan: free
+    autoDeploy: false
+    branch: runner
